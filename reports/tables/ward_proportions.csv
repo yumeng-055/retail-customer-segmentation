@@ -1,0 +1,37 @@
+cluster,category,count,denominator,share,field
+0,Female,211,394,0.535532994924,gender
+0,Male,183,394,0.464467005076,gender
+1,Female,396,753,0.525896414343,gender
+1,Male,357,753,0.474103585657,gender
+2,Female,106,232,0.456896551724,gender
+2,Male,126,232,0.543103448276,gender
+3,Female,325,621,0.523349436393,gender
+3,Male,296,621,0.476650563607,gender
+0,Divorced,46,394,0.116751269036,marital_status
+0,Married,236,394,0.598984771574,marital_status
+0,Single,112,394,0.284263959391,marital_status
+1,Divorced,57,753,0.0756972111554,marital_status
+1,Married,351,753,0.466135458167,marital_status
+1,Single,345,753,0.458167330677,marital_status
+2,Divorced,29,232,0.125,marital_status
+2,Married,137,232,0.590517241379,marital_status
+2,Single,66,232,0.284482758621,marital_status
+3,Divorced,69,621,0.111111111111,marital_status
+3,Married,412,621,0.66344605475,marital_status
+3,Single,140,621,0.225442834138,marital_status
+0,Bachelor,193,394,0.489847715736,education_level
+0,High School,60,394,0.152284263959,education_level
+0,Master,123,394,0.312182741117,education_level
+0,PhD,18,394,0.0456852791878,education_level
+1,Bachelor,391,753,0.519256308101,education_level
+1,High School,106,753,0.140770252324,education_level
+1,Master,211,753,0.2802124834,education_level
+1,PhD,45,753,0.0597609561753,education_level
+2,Bachelor,120,232,0.51724137931,education_level
+2,High School,28,232,0.120689655172,education_level
+2,Master,66,232,0.284482758621,education_level
+2,PhD,18,232,0.0775862068966,education_level
+3,Bachelor,298,621,0.479871175523,education_level
+3,High School,93,621,0.149758454106,education_level
+3,Master,181,621,0.291465378422,education_level
+3,PhD,49,621,0.0789049919485,education_level

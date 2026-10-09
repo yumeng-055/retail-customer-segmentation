@@ -1,0 +1,12 @@
+field,min,max,median
+age,20,65,36
+monthly_income,1500,999999,6650
+num_children,0,5,0
+spend_grocery,100,1750,650
+spend_fashion,0,1500,450
+spend_electronics,0,1650,500
+spend_dining,0,1700,600
+spend_online,0,1850,600
+visits_store_per_month,0,100,4
+visits_online_per_month,0,29,8
+loyalty_score,10,100,50

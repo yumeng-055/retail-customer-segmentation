@@ -1,0 +1,10 @@
+category,count,field,share
+Female,1038,gender,0.519
+Male,962,gender,0.481
+Married,1136,marital_status,0.568
+Single,663,marital_status,0.3315
+Divorced,201,marital_status,0.1005
+Bachelor,1002,education_level,0.501
+Master,581,education_level,0.2905
+High School,287,education_level,0.1435
+PhD,130,education_level,0.065

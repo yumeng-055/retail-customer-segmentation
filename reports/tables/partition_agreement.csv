@@ -1,0 +1,5 @@
+comparison,ARI,NMI
+candidate20_vs_final30_K4,1,1
+candidate20_vs_final30_K3,1,1
+SciPy_vs_sklearn_Ward_K4,1,1
+KMeans_vs_Ward_K4,0.82336858992,0.786931956746

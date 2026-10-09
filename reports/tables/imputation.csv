@@ -1,0 +1,5 @@
+field,imputation,fill_value
+monthly_income,median,6650
+num_children,median,0
+spend_online,mean,626.257179487
+spend_electronics,mean,518.820512821

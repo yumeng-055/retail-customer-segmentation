@@ -1,0 +1,16 @@
+field,dtype,missing_count,missing_share
+customer_id,str,0,0
+gender,str,0,0
+age,int64,0,0
+marital_status,str,0,0
+education_level,str,0,0
+monthly_income,float64,50,0.025
+num_children,float64,50,0.025
+spend_grocery,int64,0,0
+spend_fashion,int64,0,0
+spend_electronics,float64,50,0.025
+spend_dining,int64,0,0
+spend_online,float64,50,0.025
+visits_store_per_month,int64,0,0
+visits_online_per_month,int64,0,0
+loyalty_score,int64,0,0

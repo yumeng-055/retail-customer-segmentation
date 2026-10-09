@@ -1,0 +1,12 @@
+check,count
+customer_count,2000
+column_count,15
+duplicate_rows,0
+duplicate_ids,0
+missing_cells,200
+fields_with_missing_values,4
+negative_observed_values,0
+age_outside_18_to_100,0
+income_above_100000_SGD,1
+store_visits_above_60_per_month,15
+loyalty_outside_0_to_100,0

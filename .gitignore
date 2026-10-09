@@ -1,0 +1,9 @@
+*.csv
+!data/raw/customer_segmentation.csv
+!reports/tables/*.csv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

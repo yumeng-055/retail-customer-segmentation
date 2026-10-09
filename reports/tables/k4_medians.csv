@@ -1,0 +1,5 @@
+cluster,age,monthly_income,num_children,spend_grocery,spend_fashion,spend_electronics,spend_dining,spend_online,visits_store_per_month,visits_online_per_month,loyalty_score
+0,38,3550,0,600,200,250,300,250,3,3,34
+1,42,8050,1,1000,400,500,600,500,6,5,47
+2,30,6300,0,500,600,550,600,900,2,13,55
+3,37,15550,0,750,650,750,900,700,6,10,57
