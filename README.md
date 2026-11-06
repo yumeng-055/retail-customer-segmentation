@@ -8,9 +8,9 @@ This retail case study analyzes **2,000 customers** using purchasing capacity, c
 
 - **Business question:** Which customer groups warrant different offers, and which retailer channels best match their observed shopping patterns?
 
-- **Key finding:** the largest segment contains **744 customers (37.2%)**, with median online spending of **SGD 900/month** and **13 online visits versus 2 store visits/month**. The four-segment solution also distinguishes family-focused grocery purchasing from higher-income omnichannel activity, supporting differentiated marketing hypotheses despite stronger internal metrics at K=3.
+- **Key finding:** The largest segment contains **744 customers (37.2%)**, with median online spending of **SGD 900/month** and **13 online visits versus 2 store visits/month**. The four-segment solution also distinguishes family-focused grocery purchasing from higher-income omnichannel activity, supporting differentiated marketing hypotheses despite stronger internal metrics at K=3.
 
-- **Project contribution:** validate customer data, prepare eight clustering features, retain five principal components, compare K-Means and Ward clustering, and translate original-unit customer profiles into proposed marketing pilots with defined KPIs.
+- **Project contribution:** Validate customer data, prepare eight clustering features, retain five principal components, compare K-Means and Ward clustering, retain K-Means with **K=4** as the final working segmentation, and translate original-unit customer profiles into proposed marketing pilots with defined KPIs.
 
 - **Core strengths:** Python data analysis, data-quality controls, multivariate analysis, critical model evaluation, reproducible reporting, and communication of evidence-based business decisions.
 
@@ -67,14 +67,14 @@ Visit and income values are within-segment medians after imputation; shares use 
 
 The heatmap standardizes each feature's four segment medians using sample SD. It shows relative profile differences; the [case study](reports/customer_segmentation_case_study.md#customer-profiles) supplies original-unit spending values.
 
-**Why four segments?** K=3 has stronger internal metrics. K=4 makes the family/grocery and higher-income omnichannel patterns separately visible, potentially supporting different offers. Its additional complexity should earn its place through later business testing.
+**Final model: K-Means with K=4.** K=3 has stronger silhouette, Calinski–Harabasz and Davies–Bouldin scores. K=4 is retained for business interpretability because it distinguishes family-focused grocery shoppers from high-income omnichannel shoppers, supporting different offer hypotheses. It is a working segmentation rather than a statistical optimum; whether the extra group improves marketing outcomes requires future testing.
 
 | K | Silhouette | Calinski-Harabasz | Davies-Bouldin | Minimum cluster share |
 | --- | ---: | ---: | ---: | ---: |
 | 3 | 0.336 | 1,011.484 | 1.164 | 21.7% |
 | 4 | 0.326 | 923.144 | 1.222 | 16.5% |
 
-Candidate and final K-Means partitions agree at K=3 and K=4. K=4 subsampling ARI/NMI is **0.974/0.961** under the stated protocol. Ward provides a second-method comparison; its silhouette sampling and stability reference scheme differ, so cross-method score gaps require care. The [complete Notebook](notebooks/customer_segmentation.ipynb) details these protocols.
+Candidate fits (`n_init=20`) and final fits (`n_init=30`) produce identical partitions at both K=3 and K=4. K=4 mean subsampling ARI/NMI is **0.974/0.961** under the stated protocol. Ward provides a second-method comparison; its silhouette sampling and stability reference scheme differ, so cross-method score gaps require care. The [complete Notebook](notebooks/customer_segmentation.ipynb) details these protocols.
 
 ## 4. Marketing Recommendations and Validation
 
@@ -95,7 +95,7 @@ An online recommendation pilot is a proposed starting point because the largest 
 
 Next steps are to verify source extremes, assess segment persistence with longitudinal purchases, harmonize comparison protocols and test whether differentiated offers improve outcomes. The current deliverable is a reproducible analytical case study; deployment and ongoing monitoring remain future work.
 
-## 6. Repository navigation
+## 6. Repository Navigation
 
 ### 6.1 Project Structure
 
